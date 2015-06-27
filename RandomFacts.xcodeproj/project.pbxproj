@@ -14,6 +14,8 @@
 		C9560BF41B30CF66007B6E0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9560BF31B30CF66007B6E0F /* Images.xcassets */; };
 		C9560BF71B30CF66007B6E0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9560BF51B30CF66007B6E0F /* LaunchScreen.xib */; };
 		C9560C031B30CF66007B6E0F /* RandomFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9560C021B30CF66007B6E0F /* RandomFactsTests.m */; };
+		C9AC537E1B3340450091D2AE /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC537D1B3340450091D2AE /* FactBook.m */; };
+		C9AC53811B334C620091D2AE /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AC53801B334C620091D2AE /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C9560BFC1B30CF66007B6E0F /* RandomFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9560C011B30CF66007B6E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9560C021B30CF66007B6E0F /* RandomFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomFactsTests.m; sourceTree = "<group>"; };
+		C9AC537C1B3340450091D2AE /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		C9AC537D1B3340450091D2AE /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		C9AC537F1B334C620091D2AE /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		C9AC53801B334C620091D2AE /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				C9560BEB1B30CF66007B6E0F /* AppDelegate.m */,
 				C9560BED1B30CF66007B6E0F /* ViewController.h */,
 				C9560BEE1B30CF66007B6E0F /* ViewController.m */,
+				C9AC537C1B3340450091D2AE /* FactBook.h */,
+				C9AC537D1B3340450091D2AE /* FactBook.m */,
+				C9AC537F1B334C620091D2AE /* ColorWheel.h */,
+				C9AC53801B334C620091D2AE /* ColorWheel.m */,
 				C9560BF01B30CF66007B6E0F /* Main.storyboard */,
 				C9560BF31B30CF66007B6E0F /* Images.xcassets */,
 				C9560BF51B30CF66007B6E0F /* LaunchScreen.xib */,
@@ -168,6 +178,7 @@
 				TargetAttributes = {
 					C9560BE21B30CF66007B6E0F = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = E2TXCT58GU;
 					};
 					C9560BFB1B30CF66007B6E0F = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -221,7 +232,9 @@
 			files = (
 				C9560BEF1B30CF66007B6E0F /* ViewController.m in Sources */,
 				C9560BEC1B30CF66007B6E0F /* AppDelegate.m in Sources */,
+				C9AC537E1B3340450091D2AE /* FactBook.m in Sources */,
 				C9560BE91B30CF66007B6E0F /* main.m in Sources */,
+				C9AC53811B334C620091D2AE /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RandomFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RandomFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +431,7 @@
 				C9560C081B30CF66007B6E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9560C091B30CF66007B6E0F /* Build configuration list for PBXNativeTarget "RandomFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +440,7 @@
 				C9560C0B1B30CF66007B6E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
